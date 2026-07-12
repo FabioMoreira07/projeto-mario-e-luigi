@@ -1,0 +1,1 @@
+// começo do projeto com javascript  //
