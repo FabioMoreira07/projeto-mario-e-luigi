@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="styles.css">
 
-    <script src="scripts.js"></script>
+
 
     <title> Mario Bross </title>
 
@@ -21,7 +21,7 @@
         <img src="img/logo-header.png" alt="logo-cabecalho">
 
         <a> Home </a>
-        <a> Conosco </a>
+        <a onclick="mostrarform()"> Fale Conosco </a>
         <a> Nossos Serviços </a>
     </div>
 
@@ -43,7 +43,7 @@
                 Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
             </p>
 
-            <button> Entre em contato </button>
+            <button onclick="mostrarform()"> Entre em contato </button>
         </div>
 
         <div>
@@ -72,7 +72,7 @@
 
     </div>
 
-    <form>
+    <form class="formulario">
 
         <input placeholder=" Seu Nome " />
 
@@ -84,8 +84,11 @@
 
     </form>
 
-    <div class="mascara-formulario"></div>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
 
 </body>
+
+
+<script src="scripts.js"></script>
 
 </html>
