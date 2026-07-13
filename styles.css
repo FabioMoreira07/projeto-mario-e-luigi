@@ -29,6 +29,7 @@ body {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
@@ -139,6 +140,7 @@ form {
     border-radius: 3px;
     width: 350px;
     z-index: 1;
+    transition: 0.5s left ease-in-out;
 
 }
 
@@ -167,4 +169,7 @@ form textarea {
     height: 100%;
     position: fixed;
     top: 0;
+    visibility: hidden;
+    transition: 0.5s visibility ease-in-out;
+   
 }
