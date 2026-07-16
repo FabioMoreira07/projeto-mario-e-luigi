@@ -171,5 +171,53 @@ form textarea {
     top: 0;
     visibility: hidden;
     transition: 0.5s visibility ease-in-out;
-   
+
+}
+
+@media (max-width: 1100px) {
+    .logo-mario {
+        display: none;
+
+    }
+
+    .caixa-principal {
+        padding: 30px;
+        flex-direction: column;
+
+    }
+
+    .caixa-info-texto {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .logo-mario-luigi {
+        height: auto;
+        width: 80%;
+
+    }
+
+    .caixa-logo-mario-luigi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cabecalho{
+        padding: 10px;
+
+    }
+
+    .cabecalho img {
+        width: 40px;
+
+    }
+
+    .cabecalho a {
+        font-size: 16px;
+    }
+
 }
